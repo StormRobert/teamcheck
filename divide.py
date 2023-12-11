@@ -7,6 +7,11 @@ def divide_numbers():
     result = numerator / denominator
     
     print("the result is ", result)
+    except ValueError:
+    print("Error: You must enter a number")
+    except ZeroDivisionError:
+print("Error: You cannot divide by zero")
+
 
 
 
